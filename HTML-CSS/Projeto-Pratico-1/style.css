@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Modern+Antiqua&display=swap');
 
 *{
@@ -180,4 +181,188 @@ span{
     display: flex;
     flex-direction: column;
     align-items: center;
+=======
+@import url('https://fonts.googleapis.com/css2?family=Modern+Antiqua&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Modern Antiqua', cursive;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: dimgrey;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.navegacao{
+    display: flex;
+    width: 75%;
+    justify-content: space-evenly;
+}
+
+.navegacao-itens{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li{
+    font-size: 20px;
+    color: white;
+    list-style: none;
+    cursor: pointer;
+}
+
+li:hover{
+    font-size: 21px;
+    color: black;
+}
+
+.sherlock-foto{
+    width: 90px;
+    height: 90px;
+}
+
+.background{
+    background: url("sherlock-background.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+
+ .container-trailer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    background-color: silver;
+ }
+
+ .content{
+    width: 80%;
+    display: flex;
+    align-items: center;
+ }
+
+ .trailer{
+    width: 50%;
+}
+
+.sinopse{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+ }
+
+ .descricao{
+    color: black;
+    font-size: 13px;
+    text-align: justify;
+ }
+
+ .button{
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: darkgrey;
+    color: black;
+    font-weight: bold;
+    padding: 8px 10px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 45px;
+}
+
+.button:hover{
+    background-color:grey;
+    color: white;
+    font-weight: bold;
+}
+ 
+ .secao-fotos-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+ }
+
+.cards-content{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Modern Antiqua', cursive;
+}
+
+.card:hover{
+    transform: scale(1.02);
+}
+
+.banner1{
+    background-image: url("./sherlock_arma.jpg");
+}
+
+.banner2{
+    background-image: url("./sherlock_3.jpg");
+}
+
+.banner3{
+    background-image: url("./sherlock_4.jpg");
+}
+
+footer{
+    height: 200px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: dimgrey;
+}
+
+span{
+    color: #fff;
+    font-family: 'Modern Antiqua', cursive;
+}
+
+.navegacao-footer{
+    display: none;
+}
+
+.navegacao-footer-itens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+>>>>>>> 33de420c3b35d88b13d9350bff925ce5cb3de053
 }

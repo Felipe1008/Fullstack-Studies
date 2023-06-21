@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .minhadiv{
     width: 100%;
     height: 50px;
@@ -29,4 +30,37 @@
         height: 300px;
         background-color: greenyellow;
     }
+=======
+.minhadiv{
+    width: 100%;
+    height: 50px;
+    background-color: red;
+}
+
+@media(min-width: 480px){
+    .minhadiv{
+        width: 100%;
+        height: 100px;
+        background-color: aqua;
+    }
+}
+
+@media(min-width: 768px){
+    .minhadiv{
+        width: 100%;
+        height: 200px;
+        background-color: yellow;
+    }
+}
+
+/* Estou usando 900px, apenas para ver a diferença na tela do Notebook
+    mas o usual seria usar 1280px                                      */
+
+@media(min-width: 900px){
+    .minhadiv{
+        width: 100%;
+        height: 300px;
+        background-color: greenyellow;
+    }
+>>>>>>> 33de420c3b35d88b13d9350bff925ce5cb3de053
 }
